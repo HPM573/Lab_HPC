@@ -10,7 +10,7 @@ module load parallel
 NUM_TASKS=${SLURM_NTASKS}
 
 SRUN="srun --export=all -n1 --exclusive"
-MODEL_PATH="Lab_HPC/PyUsingSimPy/RunSim2.py"
+MODEL_PATH="PyUsingSimPy/RunSim2.py"
 MODEL="python $MODEL_PATH z"
 
 PARALLEL_OPTS="-Iz -j$NUM_TASKS"
