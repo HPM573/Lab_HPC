@@ -3,7 +3,7 @@
 #SBATCH -C avx2
 #SBATCH --job-name=SimPyRun
 #SBATCH --time=00:30
-#SBATCH -n 5
+#SBATCH -n 15
 module load Python
 module load parallel
 
