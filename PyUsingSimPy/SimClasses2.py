@@ -2,9 +2,9 @@ import sys
 # sys.path.insert(0, '/home/yjj2/Lab_HPC/PyUsingSimPy/SimPy/SimPy')
 import csv
 import os
-import RandomVariantGenerators as RVGs
-import InOutFunctions as IO
-import StatisticalClasses as Stat
+import SimPy.RandomVariantGenerators as RVGs
+import SimPy.InOutFunctions as IO
+import SimPy.StatisticalClasses as Stat
 
 
 class OneSim:
