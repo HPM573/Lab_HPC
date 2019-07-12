@@ -6,8 +6,8 @@
 4. press esc then `:wq`
 5. `cd ..`
 6. `sbatch SimPy_Run.sh` to run it on multiple nodes 
-7. `sbatch Serial_Run.sh` to run it on one node
-8. "file.csv" will be the output for SimPy_Run.sh and "serial.csv" is the output for Serial_Run.sh
+7. `sbatch oneNode_Run.sh` to run it on one node
+8. "file.csv" will be the output for SimPy_Run.sh and "node.csv" is the output for Serial_Run.sh
 9. There will be some kind of slurm.out file after you run sbatch. `cat <output file name>` to see the time it took to run the script
 
 # python 3
