@@ -1,5 +1,5 @@
 import sys
-# sys.path.insert(0, '/home/yjj2/Lab_HPC/PyUsingSimPy/SimPy/SimPy')
+sys.path.insert(0, '/home/ry87/SimPy')
 import csv
 import os
 import SimPy.RandomVariantGenerators as RVGs

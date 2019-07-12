@@ -3,7 +3,7 @@
 #SBATCH -C avx2
 #SBATCH --job-name=oneNode
 #SBATCH --time=00:30
-#SBATCH -n 15
+#SBATCH -n 70
 module load Python
 module load parallel
 
@@ -15,4 +15,4 @@ MODEL="python $MODEL_PATH z"
 
 PARALLEL_OPTS="-Iz -j$NUM_TASKS"
 
-time seq 15 | parallel $PARALLEL_OPTS $SRUN $MODEL >> node.csv
+time seq 70 | parallel $PARALLEL_OPTS $SRUN $MODEL >> node.csv
