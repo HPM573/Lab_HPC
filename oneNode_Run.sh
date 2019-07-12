@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -C avx2
-#SBATCH --job-name=SimPyRun
+#SBATCH --job-name=oneNode
 #SBATCH --time=00:30
 #SBATCH -n 15
 module load Python
