@@ -10,7 +10,7 @@
 8. "file.csv" will be the output for SimPy_Run.sh and "serial.csv" is the output for Serial_Run.sh
 9. There will be some kind of slurm.out file after you run sbatch. `cat <output file name>` to see the time it took to run the script
 
-#python 3
+# python 3
 1. `module load Python/3.6.2-foss-2017b` on sbatch script
 
 # Corrections 
