@@ -11,7 +11,7 @@
 9. There will be some kind of slurm.out file after you run sbatch. `cat <output file name>` to see the time it took to run the script
 
 #python 3
-`module load Python/3.6.2-foss-2017b` on sbatch script
+1. `module load Python/3.6.2-foss-2017b` on sbatch script
 
 # Corrections 
 - CSV outputs 
