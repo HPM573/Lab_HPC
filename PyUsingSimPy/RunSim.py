@@ -7,4 +7,3 @@ ppModel = PP.OneSim(seed=seed)
 ppModel.simulate(n_steps=1000)
 print(seed)
 print(ppModel.sum)
-
