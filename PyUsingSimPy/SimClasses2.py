@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/home/yjj2/Lab_HPC/PyUsingSimPy/SimPy/SimPy')
+# sys.path.insert(0, '/home/yjj2/Lab_HPC/PyUsingSimPy/SimPy/SimPy')
 import csv
 import os
 import RandomVariantGenerators as RVGs
@@ -13,7 +13,7 @@ class OneSim:
         self.beta = RVGs.Beta(a=1, b=2)
         self.sum = 0
         self.obs = []
-	self.num = seed
+        self.num = seed
 
     def simulate(self, n_steps):
         for i in range(n_steps):
@@ -21,12 +21,11 @@ class OneSim:
 
         self.obs.append(self.sum)
 
-
     def export_results(self):
         rows = []
         for obs in self.obs:
             rows.append([self.obs])
-	name = str(self.num) + ".csv"
+        name = str(self.num) + ".csv"
         IO.write_csv(rows=rows, file_name=name, directory='Results')
 
 
