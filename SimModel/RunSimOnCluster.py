@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, '/home/ry87/SimPy')
 import SimClasses2 as PP
 import sys
 

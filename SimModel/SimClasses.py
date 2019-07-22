@@ -3,7 +3,7 @@ import SimPy.RandomVariantGenerators as RVGs
 import SimPy.InOutFunctions as IO
 import SimPy.StatisticalClasses as Stat
 import multiprocessing as mp
-sys.path.insert(0, '/home/ry87/SimPy')
+
 
 
 class OneSim:
