@@ -3,7 +3,7 @@
 #SBATCH -C avx2
 #SBATCH --job-name=oneNode
 #SBATCH --time=00:30
-#SBATCH -n 1
+#SBATCH -n 70
 module load Python
 module load parallel
 
