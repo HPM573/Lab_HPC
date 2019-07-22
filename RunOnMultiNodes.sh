@@ -16,4 +16,4 @@ MODEL="python $MODEL_PATH z"
 
 PARALLEL_OPTS="-Iz -j$NUM_TASKS"
 
-time seq 15 | parallel $PARALLEL_OPTS $SRUN $MODEL >> file.csv
+time seq 50 | parallel $PARALLEL_OPTS $SRUN $MODEL >> file.csv
