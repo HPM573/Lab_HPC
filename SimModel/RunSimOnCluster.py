@@ -10,6 +10,6 @@ ppModel = PP.OneSim(ARR_NUM)
 ppModel.simulate(n_steps=1000)
 print(ARR_NUM)
 print(ppModel.sum)
-ppModel.export_results()
+ppModel.export_results(directory='ResultsCluster')
 VAL = VAL + 1
 
